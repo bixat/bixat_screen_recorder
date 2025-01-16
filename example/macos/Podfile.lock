@@ -1,0 +1,22 @@
+PODS:
+  - bixat_screen_recorder (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - bixat_screen_recorder (from `Flutter/ephemeral/.symlinks/plugins/bixat_screen_recorder/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  bixat_screen_recorder:
+    :path: Flutter/ephemeral/.symlinks/plugins/bixat_screen_recorder/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  bixat_screen_recorder: 647c38e92422c2329968c302cde0fbcb6eee5802
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.16.2

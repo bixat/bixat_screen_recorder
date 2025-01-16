@@ -1,0 +1,17 @@
+// Add to frameworks:
+FRAMEWORK_SEARCH_PATHS = (
+    "$(inherited)",
+    "$(SYSTEM_LIBRARY_DIR)/Frameworks"
+);
+
+OTHER_LDFLAGS = (
+    "$(inherited)",
+    "-framework",
+    "CoreMedia",
+    "-framework", 
+    "CoreFoundation",
+    "-framework",
+    "ScreenCaptureKit",
+    "-framework",
+    "AVFoundation"
+);
