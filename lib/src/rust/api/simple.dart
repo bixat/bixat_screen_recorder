@@ -11,3 +11,6 @@ Stream<String> startScreenCapture() =>
 
 String greet({required String name}) =>
     RustLib.instance.api.crateApiSimpleGreet(name: name);
+
+Future<bool> initializeScreenCapture() =>
+    RustLib.instance.api.crateApiSimpleInitializeScreenCapture();

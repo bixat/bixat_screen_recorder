@@ -28,5 +28,11 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Need microphone access for recording</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need camera access for recording</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Need screen capture access for recording</string>
 </dict>
 </plist>
